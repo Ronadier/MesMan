@@ -40,6 +40,7 @@ public class MesManApplication {
     }
 
     public static void main(String[] args) {
+        System.setProperty("spring.config.name", "MesMan");
         SpringApplication.run(MesManApplication.class, args);
     }
 

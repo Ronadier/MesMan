@@ -1,0 +1,7 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: jdbc:postgresql://10.31.70.181:7100/eip
+    username: coder
